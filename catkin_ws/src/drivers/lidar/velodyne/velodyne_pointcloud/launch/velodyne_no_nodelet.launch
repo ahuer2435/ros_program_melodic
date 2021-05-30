@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- A simple launch file for the nmea_serial_driver node. -->
+  <node name="velodyne_node" pkg="velodyne_driver" type="velodyne_node" output="screen" />
+  <node name="velodyne_laserscan_node" pkg="velodyne_laserscan" type="velodyne_laserscan_node" output="screen" />
+  <node name="cloud_node" pkg="velodyne_pointcloud" type="cloud_node" output="screen" />
+
+</launch>
