@@ -208,5 +208,5 @@ include_directories(
 # catkin_add_nosetests(test)
 
 include_directories(include ${catkin_INCLUDE_DIRS})
-add_executable(state_publisher src/state_publisher.cpp)
-target_link_libraries(state_publisher ${catkin_LIBRARIES})
+add_executable(robot_pub src/robot_pub.cpp)
+target_link_libraries(robot_pub ${catkin_LIBRARIES})
